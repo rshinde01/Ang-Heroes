@@ -1,0 +1,16 @@
+.warning-default{
+	background-color : #ff9999;
+	border:1px solid red;
+	padding:2em;
+	text-align:center;
+	color:red;
+}
+
+.warning-change{
+	background-color : palegreen;
+	padding:2em;
+	border:1px solid green;
+	text-align:center;
+
+}
+

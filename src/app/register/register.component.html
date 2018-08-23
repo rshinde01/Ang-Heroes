@@ -1,0 +1,8 @@
+<div class="row">
+	<input type="text" [(ngModel)]="username" (input)="enableButton($event)">
+	<button class="btn btn-primary "[disabled]="btnDisable" (click)="clearField()">Click Me </button>
+</div>
+<div class="row">
+	<p>{{username}}</p>
+
+</div>

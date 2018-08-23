@@ -1,0 +1,32 @@
+h1{
+	color: black;
+	font-family: Arial, Helvetica, sans-serif;
+	text-align:center;
+	padding-top:1.2em;
+}
+
+li{
+	display:inline;
+	padding:1.2em;
+ }
+ 
+ul{
+	border:1.2 em,0;
+}
+
+.modal_container{
+	height:60%;
+}
+
+.container{
+	height:100%;
+	width:100%;
+	background-color: darkgrey;	
+}
+
+.modal-header, .modal-footer{
+	height:auto;	
+}
+.modal-container, .modal-footer{	
+	position:absolute;
+}

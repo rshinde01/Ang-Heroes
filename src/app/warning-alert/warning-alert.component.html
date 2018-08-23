@@ -1,0 +1,7 @@
+<div class="warning" [ngClass]=" [warningStyle]">
+<button class="btn btn-primary" [disabled] = "!warningStatus" (click)="onResolveWarning()"> Resolve </button>
+<span>WARNING!!!</span>
+<span> {{ warningMessage }}</span> 
+</div>
+
+<app-register> </app-register>
